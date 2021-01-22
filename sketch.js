@@ -37,8 +37,7 @@ function setup() {
   treeObj=new tree(1050,580);
   fill(0);
   groundObject=new ground(width/2,600,width,20);
-  groundObject.addImage(groundImg);
-	launcherObject=new launcher(stoneObj.body,{x:235,y:420})
+  launcherObject=new launcher(stoneObj.body,{x:235,y:420})
   var render = Render.create({
     element: document.body,
     engine: engine,
